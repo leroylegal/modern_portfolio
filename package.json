@@ -2,14 +2,13 @@
   "name": "modern_portifolio",
   "version": "1.0.0",
   "description": "Responsive portifolio website",
-  "main": "index.js",
+  "main": "main.js",
   "dependencies": {
     "node-sass": "^4.13.0"
   },
   "devDependencies": {},
   "scripts": {
-    "sass": "echo \"Hello from sass\"",
-    "sass1": "node-sass -w scss/ -o dist/css/ --recursive"
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
   },
   "author": "Raphael Souza",
   "license": "MIT"
